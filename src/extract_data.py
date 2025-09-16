@@ -120,5 +120,6 @@ if __name__ == "__main__":
         # Test flight extraction
         flights = extract_flights()
         print(f"Flight extraction returned DataFrame with shape: {flights.shape}")
+        print(flights.head())
     else:
         print("Skipping flight extraction due to API issues")
