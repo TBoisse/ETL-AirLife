@@ -11,11 +11,18 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 import psycopg2
 
+password = ""
+with open("password/password.txt", "r") as f:
+    password = f.readline().strip()
+username = ""
+with open("password/username.txt", "r") as f:
+    username = f.readline().strip()
+
 # Database connection configuration
 # TODO: Update these values with your actual database credentials
 DATABASE_CONFIG = {
-    'username': '',
-    'password': '', 
+    'username': username,
+    'password': password,
     'host': 'localhost',
     'port': '5432',
     'database': 'airlife_db'
