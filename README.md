@@ -7,7 +7,7 @@ cleans the data, and loads it into a PostgreSQL database.
 ## How to Run It
 1. Install dependencies: `pip install -r requirements.txt`
 2. Set up PostgreSQL database
-3. Update database connection in `src/load_data.py`
+3. Update database connection in `password/`
 4. Run: `python main.py`
 
 ## What We Built
