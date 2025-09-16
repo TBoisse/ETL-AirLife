@@ -143,7 +143,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-password/password.txt
 
 # Spyder project settings
 .spyderproject
